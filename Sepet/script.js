@@ -51,7 +51,7 @@ mikrofon.addEventListener('click', function () {
 })
 
 setTimeout(function () {
-    if(document.querySelector('.urunler *')){ // Class değeri ürünler içerisindeki elemanlar seçiliyorsa.
+    if(urunler.children.length >= 1){ // Class değeri ürünler içerisindeki elemanların uzunluğu 1'den büyük veya 1'e eşitse.
         new Audio('ses/error.mp3').play();
         setTimeout(function(){
             alert('Alınmamış ürün var!')
