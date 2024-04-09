@@ -1,3 +1,3 @@
 # sepetim
  
-HTML5,CSS3,JS ile unutkan kişilerin ürün alacağı zaman alacağı ürünü unutmasını önleyecek bir sistem geliştirdim. Ses ile ürün ekleyebiliyorsunuz veya yazı ile de ekleyebiliyorsunuz. 3 dakika sonra ise sistem ürün var mı yok mu diye kontrol ediyor eğer ki ürün varsa kişiye sesli bildirim gidiyor.
+HTML5, CSS3 ve JS kullanarak unutkan kişilerin alacakları ürünleri unutmalarını engelleyecek bir sistem geliştirdim. Bu sistemde kullanıcılar, ürünleri sesle veya yazıyla ekleyebilirler. Ardından, 3 dakika sonra sistem otomatik olarak eklenen ürünleri kontrol eder ve eğer bir ürün varsa kullanıcıya sesli bildirim gönderir.
