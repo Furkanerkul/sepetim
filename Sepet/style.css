@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Domine,sans-serif;
+}
+
+body .islem{
+    position: relative;
+    top: 50px;
+}
+
+body .islem #ekle{
+    padding: 10px;
+    width: 125px;
+}
+
+body .islem input{
+    padding: 10px;
+}
+
+body .islem input[type="text"]:focus{
+    outline: none;
+}
+
+body .islem #ekle:hover{
+    cursor: pointer;
+}
+
+body .islem #ekle{
+    background-color: limegreen;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+}
+
+body .islem #mikrofon{
+    background-color: limegreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+body .islem #mikrofon:hover{
+    cursor: pointer;
+    transition: 0.50s;
+    transform: scale(1.5)
+}
+
+body .urunler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 70px;
+    text-transform: capitalize;
+}
+
+body #urunAlindi{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+body #urunAlindi:hover{
+    cursor: pointer;
+}
